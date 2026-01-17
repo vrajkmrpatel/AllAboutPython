@@ -1,0 +1,15 @@
+print("---Welcome to MyWasy Sandwich---")
+print("Pick any Three toppings from below...")
+print("1. Onions")
+print("2. Lettus")
+print("3. Tomato")
+print("4. Olives")
+print("5. Peppers")
+print("6. Tomatoes")
+toppings = input().split()
+print(toppings)
+
+print("How many Sandwich's you want?")
+qty=int(input())
+
+print(f"Total Amount: {5*qty}")

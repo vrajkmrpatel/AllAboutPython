@@ -5,5 +5,4 @@ def myfun(x, *args, **kwargs):
     for key, value in kwargs.items():
         print(key, value)
 
-
 myfun(10, 20, 30, 40, name="Vraj", sal=10000)
